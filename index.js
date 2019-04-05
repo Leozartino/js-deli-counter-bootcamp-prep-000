@@ -15,7 +15,7 @@ function currentLine(currentLinePeople){
   };
   let indexAndValues = [];
   for(let x = 0; x < currentLinePeople.length; x++){
-    indexAndValues.push(`${x + 1}. ${currentLinePeople[x]}`);
+    indexAndValues.push(`${x + 1}. ${currentLinePeople[x]} `);
   };
   return `The line is currently: ${indexAndValues}`;
 };
