@@ -4,7 +4,7 @@ function takeANumber(currentLinePeople, personName){
 };
 
 function nowServing(){
-  
+
 };
 
 function currentLine(currentLinePeople){
