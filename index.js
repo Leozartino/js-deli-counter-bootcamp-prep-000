@@ -13,5 +13,9 @@ function currentLine(currentLinePeople){
   if (tamanhoArr === 0){
     return `The line is currently empty.`;
   };
-  return `The line is currently: ${tamanhoArr}.`;
+  let indexAndValues = [];
+  for(let x = 0; x < currentLinePeople.length; i++){
+    indexAndValues.push(`${x + 1}. ${currentLinePeople[x]}`);
+  };
+  return `The line is currently: ${indexAndValues}`;
 };
