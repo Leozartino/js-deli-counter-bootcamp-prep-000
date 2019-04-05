@@ -1,15 +1,10 @@
 
 function takeANumber(currentLinePeople, personName){
-  let indiceNumber = 0;
-  currentLinePeople.push(personName);
-  for (let i = 0; i < currentLinePeople.length; i++){
-    indiceNumber = i + 1
-  };
-  return `Welcome, ${personName}. You are number ${indiceNumber} in line.`;
+  return `Welcome, ${personName}. You are number ${currentLinePeople.length} in line.`;
 };
 
 function nowServing(){
-
+  
 };
 
 function currentLine(currentLinePeople){
