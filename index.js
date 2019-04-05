@@ -14,7 +14,7 @@ function currentLine(currentLinePeople){
     return `The line is currently empty.`;
   };
   let indexAndValues = [];
-  for(let x = 0; x < currentLinePeople.length; i++){
+  for(let x = 0; x < currentLinePeople.length; x++){
     indexAndValues.push(`${x + 1}. ${currentLinePeople[x]}`);
   };
   return `The line is currently: ${indexAndValues}`;
