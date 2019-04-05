@@ -1,8 +1,8 @@
 
 function takeANumber(currentLinePeople, personName){
   let indiceNumber = 0;
-  currentPeople.push(personName);
-  for (let i = 0; i < currentPeople.length; i++){
+  currentLinePeople.push(personName);
+  for (let i = 0; i < currentLinePeople.length; i++){
     indiceNumber = i + 1
   };
   return `Welcome, ${personName}. You are number ${indiceNumber} in line.`;
