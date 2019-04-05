@@ -11,7 +11,7 @@ function nowServing(arrayDeli){
   }
   let arrayPreservedServed = arrayDeli [0]
   arrayDeli.shift()
-  return `Currently serving ${arrayPreservedServed}`;
+  return `Currently serving ${arrayPreservedServed}.`;
 };
 
 function currentLine(currentLinePeople){
