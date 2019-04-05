@@ -4,13 +4,19 @@ function takeANumber(currentLinePeople, personName){
   return `Welcome, ${personName}. You are number ${currentLinePeople.length} in line.`;
 };
 
-function nowServing(){
-
+function nowServing(arrayDeli){
+  const arrLen = arrayDeli.length;
+  if (arrLen === 0){
+    return `There is nobody waiting to be served!`;
+  }
+  let arrayPreservedServed = arrayDeli [0]
+  arrayDeli.shift()
+  return `Currently serving ${arrayPreservedServed}`;
 };
 
 function currentLine(currentLinePeople){
-  const arr = currentLinePeople.length;
-  if (arr === 0){
+  const arrLen = currentLinePeople.length;
+  if (arrLen === 0){
     return `The line is currently empty.`;
   };
   let indexAndValues = [];
