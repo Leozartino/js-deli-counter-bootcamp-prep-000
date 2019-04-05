@@ -8,9 +8,13 @@ function takeANumber(currentLinePeople, personName){
   return `Welcome, ${personName}. You are number ${indiceNumber} in line.`;
 };
 
+function nowServing(){
+  
+};
+
 function currentLine(currentLinePeople){
-  const tamanhoArr = currentLinePeople.length;
-  if (tamanhoArr === 0){
+  const arr = currentLinePeople.length;
+  if (arr === 0){
     return `The line is currently empty.`;
   };
   let indexAndValues = [];
