@@ -1,6 +1,6 @@
 
 function takeANumber(currentLinePeople, personName){
-  currentLinePeople.push(personName)
+  currentLinePeople.push(personName);
   return `Welcome, ${personName}. You are number ${currentLinePeople.length} in line.`;
 };
 
